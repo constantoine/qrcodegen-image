@@ -7,8 +7,8 @@ rust-version = "1.61"
 readme = "README.md"
 license = "MIT"
 description = "Draw QR codes to a PNG canvas. Wrapper around the qrcodegen and image crates."
-repository = "https://github.com/constantoine/totp-rs"
-homepage = "https://github.com/constantoine/totp-rs"
+repository = "https://github.com/constantoine/qrcodegen-image"
+homepage = "https://github.com/constantoine/qrcodegen-image"
 
 [package.metadata.docs.rs]
 features = [ "base64" ]

@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.5.0](https://github.com/constantoine/qrcodegen-image/releases/tag/v1.5.0) (24/08/2024)
+
+### What's new
+
+- Now moved to its own repo!
+- Updated `image` crate to `0.25`. ([#71](https://github.com/constantoine/totp-rs/pull/71)).
+
+### Special thanks
+
+- [@xmakro](https://github.com/xmakro) for their work on [#71](https://github.com/constantoine/totp-rs/pull/71).
+
 ## [1.4.0](https://github.com/constantoine/totp-rs/releases/tag/qrcodegen-image%2Fv1.4.0) (08/03/2024)
 
 ### What's new
@@ -31,8 +42,8 @@
 
 ### What's new
 
-- Creation of a new `qrcodegen-image` subcrate to handle image creation, as the wrapper is actually nice and could be used in placed not related to `totp-rs`. (#61)
+- Creation of a new `qrcodegen-image` subcrate to handle image creation, as the wrapper is actually nice and could be used in placed not related to `totp-rs`. ([#61](https://github.com/constantoine/totp-rs/pull/61)).
 
 ### Special thanks
 
-- [@tmpfs](https://github.com/tmpfs) for their work on #60 and implementation in #61.
+- [@tmpfs](https://github.com/tmpfs) for their work on [#60](https://github.com/constantoine/totp-rs/pull/60) and implementation in [#61](https://github.com/constantoine/totp-rs/pull/61).
