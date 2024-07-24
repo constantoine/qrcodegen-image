@@ -11,7 +11,8 @@ repository = "https://github.com/constantoine/qrcodegen-image"
 homepage = "https://github.com/constantoine/qrcodegen-image"
 
 [package.metadata.docs.rs]
-features = [ "base64" ]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
 
 [features]
 base64 = ["dep:base64"]
