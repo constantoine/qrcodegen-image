@@ -1,11 +1,18 @@
 # Changelog
 
+## [1.5.1](https://github.com/constantoine/qrcodegen-image/releases/tag/v1.5.1) (28/01/2026)
+
+### What's new
+
+- Upgraded `criterion` crate to `0.8`. ([#1](https://github.com/constantoine/qrcodegen-image/pull/1)).
+- Upgraded different github actions to latest version.
+
 ## [1.5.0](https://github.com/constantoine/qrcodegen-image/releases/tag/v1.5.0) (24/08/2024)
 
 ### What's new
 
 - Now moved to its own repo!
-- Updated `image` crate to `0.25`. ([#71](https://github.com/constantoine/totp-rs/pull/71)).
+- Upgraded `image` crate to `0.25`. ([#71](https://github.com/constantoine/totp-rs/pull/71)).
 
 ### Special thanks
 
@@ -16,7 +23,7 @@
 ### What's new
 
 - `draw_canvas` is now 15%(!) faster on my machine after optimizing the "drawing_square" loop.
-- Updated `base64` crate to `0.22`.
+- Upgraded `base64` crate to `0.22`.
 
 ## [1.3.0](https://github.com/constantoine/totp-rs/releases/tag/qrcodegen-image%2Fv1.3.0) (19/01/2024)
 
