@@ -23,7 +23,7 @@ image = { version = "0.25", features = ["png"], default-features = false}
 base64 = { version = "0.22", optional = true }
 
 [dev-dependencies]
-criterion = { version = "0.5", features = ["html_reports"] }
+criterion = { version = "0.8", features = ["html_reports"] }
 
 [[bench]]
 name = "benches"
