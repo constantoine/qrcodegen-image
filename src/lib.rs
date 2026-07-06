@@ -93,6 +93,6 @@ pub fn draw_png(text: &str) -> Result<Vec<u8>, String> {
 /// It will also return an error in case it can't encode the qr into a png. This shouldn't happen unless either the qrcode library returns malformed data, or the image library doesn't encode the data correctly.
 #[cfg(feature = "base64")]
 pub fn draw_base64(text: &str) -> Result<String, String> {
-    use base64::{engine::general_purpose, Engine as _};
+    use base64::{Engine as _, engine::general_purpose};
     draw_png(text).map(|vec| general_purpose::STANDARD.encode(vec))
 }
