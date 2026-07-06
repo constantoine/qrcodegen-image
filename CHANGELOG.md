@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.5.1](https://github.com/constantoine/qrcodegen-image/releases/tag/v1.5.1) (06/07/2026)
+## [1.5.2](https://github.com/constantoine/qrcodegen-image/releases/tag/v1.5.1) (06/07/2026)
 
 ### What's new
 
