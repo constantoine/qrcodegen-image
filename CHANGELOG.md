@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.1](https://github.com/constantoine/qrcodegen-image/releases/tag/v1.5.1) (06/07/2026)
+
+### What's new
+
+- Bumped `edition` to 2024.
+- Bumped `msrv` to 1.88.
+- Upgraded different github actions to latest version.
+
 ## [1.5.1](https://github.com/constantoine/qrcodegen-image/releases/tag/v1.5.1) (28/01/2026)
 
 ### What's new
